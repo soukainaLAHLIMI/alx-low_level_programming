@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * strspn
  * return: Always 0
