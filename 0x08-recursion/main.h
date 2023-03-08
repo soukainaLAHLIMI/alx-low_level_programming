@@ -12,5 +12,6 @@ int find_sqrt(int num, int root);
 int square(int n, int val);
 int sqrt2(int a, int b);
 int is_prime_number(int n);
+int prime2(int a, int b);
 int _evaluate(int i, int n);
 #endif
