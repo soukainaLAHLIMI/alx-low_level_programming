@@ -22,7 +22,9 @@ char *hash_table_get(const hash_table_t *ht, const char *key)
 	if (index >= ht->size)
 		return (NULL);
 
-	node = ht->arrey[index];
-	while (node && strcmp(node->key) != 0)
+	node = ht->array[index];
+	while (node && strcmp (node->key, key) != 0)
 		node = node->next;
 	return ((node == NULL) ? NULL : node->value);
+
+}

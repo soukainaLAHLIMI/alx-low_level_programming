@@ -6,9 +6,9 @@
  *
  */
 
-unsigned long int hash_djb2(const unsighned char *str)
+unsigned long int hash_djb2(const unsigned char *str)
 {
-	unsighed long int hash;
+	unsigned long int hash;
 	int c;
 
 	hash = 5381;

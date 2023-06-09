@@ -13,7 +13,7 @@
  *
  */
 
-Typedef struct hash_node_s
+typedef struct hash_node_s
 {
 	char *key;
 	char *value;

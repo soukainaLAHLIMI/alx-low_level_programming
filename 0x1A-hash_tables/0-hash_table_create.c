@@ -6,10 +6,10 @@
  *
  */
 
-hash_table_t * hash_table_vreate(unsighned long int size)
+hash_table_t *hash_table_create(unsigned long int size)
 {
 	hash_table_t *ht;
-	unsighned long int i;
+	unsigned long int i;
 
 	ht = malloc(sizeof(hash_table_t));
 	if (ht == NULL)
@@ -20,7 +20,7 @@ hash_table_t * hash_table_vreate(unsighned long int size)
 	if (ht->array == NULL)
 		return (NULL);
 	for (i = 0; i < size; i++)
-		ht->arrey[i] = NULL;
+		ht->array[i] = NULL;
 
 	return (ht);
 }
